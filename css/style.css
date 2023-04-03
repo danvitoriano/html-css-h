@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    color: #ed145b;
+    background-image: url('../img/tile-dark.jpeg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #ed145b;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    text-align: right;
+    text-shadow: 1px 1px 3px white;
+}
+
+.fundo-medio {
+    background-color: #333333;
+}
+
+.image-fundo {
+    background-image: url('../img/icon.png');
+    background-repeat: no-repeat;
+    background-position: 10% 30%;
+}
+
+footer {
+    background-color: black;
+    font-weight: bold;
+}
+
+code {
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.negrito {
+    font-weight: bold;
+    color: #fff;
+}
+
+.italico {
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.especial {
+    font-variant: small-caps;
+    text-align: justify;
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+}
+
+.transform {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nome-sobrenome {
+    text-transform: capitalize;
+    background-color: #fff;
+    color: black;
+    text-decoration: underline;
+}
+
+.menu {
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+a:hover {
+    color: white;
+}
+
+.indent{
+    text-indent: 50px;
+}
